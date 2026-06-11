@@ -526,31 +526,14 @@
   <div class="card-container">
     
     <!-- Hero / Header Section -->
-    <header class="logo-container fade-in">
-      <!-- Conect-R Inline SVG Logo -->
-      <svg width="170" height="36" viewBox="0 0 170 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <!-- Golden Signal Node Symbol -->
-        <path d="M6 18C6 11.3726 11.3726 6 18 6C20.65 6 23.09 6.86 25.07 8.33" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
-        <path d="M10 18C10 13.58 13.58 10 18 10C19.72 10 21.3 10.56 22.58 11.51" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="1 1.5" stroke-linecap="round"/>
-        <circle cx="18" cy="18" r="2.5" fill="#D4AF37" />
-        <circle cx="18" cy="18" r="4.5" stroke="#00C9A7" stroke-width="0.8" fill="none" opacity="0.6"/>
-        <!-- Connection node links -->
-        <line x1="22" y1="18" x2="28" y2="18" stroke="#00C9A7" stroke-width="1.2" stroke-linecap="round"/>
-        
-        <!-- Text: Conect-R -->
-        <!-- "C" in teal #00C9A7 -->
-        <text x="32" y="24" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#00C9A7" letter-spacing="0.5">C</text>
-        <!-- "onect-R" in white #FFFFFF -->
-        <text x="48" y="24" font-family="'Montserrat', sans-serif" font-weight="700" font-size="20" fill="#FFFFFF" letter-spacing="0.5">onect-R</text>
-      </svg>
+    <header class="logo-container fade-in" style="width: 100%; display: flex; justify-content: center;">
+      <img src="conect-r-logo.jpg" alt="Conect-R" style="max-width: 160px; height: auto; display: block;">
     </header>
 
     <!-- Profile Photo Container -->
     <div class="profile-container fade-in delay-1">
-      <div class="profile-photo">
-        <!-- Fallback to RC initials if image is missing or loading -->
-        <img src="ricardo-photo.jpg" alt="Ricardo" onload="document.getElementById('profileInitials').style.display='none';" onerror="this.style.display='none'; document.getElementById('profileInitials').style.display='flex';" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-        <span id="profileInitials">RC</span>
+      <div class="profile-photo" style="overflow: hidden;">
+        <img src="ricardo-photo.jpg" alt="Ricardo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
       </div>
     </div>
 
@@ -608,8 +591,8 @@
     <!-- About Conect-R Section -->
     <section class="about-section fade-in delay-5">
       <h2 class="section-title">About Conect-R</h2>
-      <p class="about-text">
-        We specialize in building NFC digital solutions, personalized mobile portals for restaurants and local businesses, and modern connected brand experiences.
+      <p class="about-text" style="text-align: justify; text-align-last: center;">
+        Conect-R is a full-service digital ecosystem built for restaurants and local businesses. We build websites, NFC-powered digital portals, and connected brand experiences &mdash; all integrated with our own software suite: <strong style="color: #00C9A7; font-weight: 600;">Chamba</strong> for team and workforce management, <strong style="color: #00C9A7; font-weight: 600;">TableReserve</strong> for reservations, and <strong style="color: #00C9A7; font-weight: 600;">NextUp</strong> for waitlist and guest flow. We also offer hands-on consulting for restaurants ready to modernize their operations. Everything connects. Everything works together.
       </p>
     </section>
 
